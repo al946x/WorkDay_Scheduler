@@ -55,3 +55,23 @@ currentHour.each(function(){
       $(this).parent().addClass('future');
    }
 })
+
+//text can be added to text area by the user
+var hourSlot = $('#hourSlot');
+var tasks = $('#tasks');
+var saveBtn = $('.saveBtn');
+var dayplans = [];
+var success = $('.success')
+
+saveBtn.on('click',function(){
+   tasks = ($(this).siblings('#tasks').val());
+   hourSlot = ($(this).siblings('.hour').text()); 
+   timeblocks[hourSlot] = tasks;
+
+   
+   //the text can be saved to the ls
+   localStorage.setItem('hourly_tasks', JSON.stringify(timeblocks));
+   success.show(1500);
+   success.hide(1000);
+})
+
