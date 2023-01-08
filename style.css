@@ -103,3 +103,20 @@ textarea {
   background-color: #77dd77;
   color: black;
 }
+
+
+.saveBtn {
+  color: white;
+  width: 100px;
+  background: #0f8fc7;
+  border: none;
+  height: 40px;
+  font-family: 'sans-serif';
+  border-radius: 15px;
+  font-size: 15px;
+  align-self: center;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+}
