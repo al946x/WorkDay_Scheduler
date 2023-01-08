@@ -34,3 +34,22 @@ textarea {
   flex-direction: column;
   
 }
+
+.success {
+  align-self: center;
+  width: 300px;
+  color: white;
+}
+
+.hide{
+  display: none
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
