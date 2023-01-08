@@ -4,7 +4,7 @@ This is a simple calendar app which can be used to schedule a work day. Events c
 [Link to the deployed project] (https://al946x.github.io/WorkDay_Scheduler/)
 
 # Screenshot 
-![screenshot of work day scheduler](assets/images/screenshot.png/ "Screen shot of work day scheduler")
+![screenshot of work day scheduler](images/screenshot.png/ "Screen shot of work day scheduler")
 
 # Installation
 Clone the repo from github and run it on your local machine
