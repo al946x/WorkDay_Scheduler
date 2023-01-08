@@ -41,3 +41,17 @@ if (JSON.parse(localStorage.getItem('hourly_tasks')) != null) {
     updateSchedule()
  }
  
+//timeblock colour changes according to past present future
+
+var currentHour = $('.hour');
+
+
+currentHour.each(function(){
+   if((moment().format('H'))==$(this).text()){
+      $(this).parent().addClass('present');
+   } else if(parseInt((moment().format('H'))) > $(this).text()) {
+      $(this).parent().addClass('past');
+   }else{ 
+      $(this).parent().addClass('future');
+   }
+})
