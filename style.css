@@ -81,3 +81,25 @@ textarea {
 .row span {
   align-self: center;
 }
+
+
+.hour {
+  color: black;
+  font-size: 32px;
+  align-self: center;
+} 
+
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.present {
+  background-color: #ff6961;
+  color: black;
+}
+
+.future {
+  background-color: #77dd77;
+  color: black;
+}
