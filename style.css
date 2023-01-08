@@ -19,3 +19,18 @@ textarea {
   border-radius: 5px;
   font-size: 16px;
 }
+
+
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+  height: 200px;
+  border-radius: 0;
+  font-family:monospace;
+  font-size: 20px;
+  align-self: center;
+  text-align: center;
+  flex-direction: column;
+  
+}
