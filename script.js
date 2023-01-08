@@ -33,3 +33,11 @@ function updateSchedule(){
     })
  }
  
+//Show data from LS when the page is reloaded
+if (JSON.parse(localStorage.getItem('hourly_tasks')) != null) {
+    timeblocks = JSON.parse(localStorage.getItem('hourly_tasks'));
+    updateSchedule();
+ }else{
+    updateSchedule()
+ }
+ 
