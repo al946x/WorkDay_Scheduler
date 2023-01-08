@@ -53,3 +53,14 @@ textarea {
   text-align: center;
   border-radius: 15px;
 }
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+  padding: 20px;
+  border-radius: 5px;
+} 
