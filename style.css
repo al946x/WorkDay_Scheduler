@@ -64,3 +64,20 @@ textarea {
   padding: 20px;
   border-radius: 5px;
 } 
+
+
+.row {
+  max-width: 600px;
+  color: #242424;
+  background-color: #ccc;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.row span {
+  align-self: center;
+}
