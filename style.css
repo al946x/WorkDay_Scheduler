@@ -27,12 +27,12 @@ textarea {
   color: white;
   height: 200px;
   border-radius: 0;
-  font-family: monospace;
+  font-family:monospace;
   font-size: 20px;
   align-self: center;
   text-align: center;
   flex-direction: column;
-
+  
 }
 
 .success {
@@ -41,7 +41,7 @@ textarea {
   color: white;
 }
 
-.hide {
+.hide{
   display: none
 }
 
@@ -63,7 +63,7 @@ textarea {
   row-gap: 10px;
   padding: 20px;
   border-radius: 5px;
-}
+} 
 
 
 .row {
@@ -87,7 +87,7 @@ textarea {
   color: black;
   font-size: 32px;
   align-self: center;
-}
+} 
 
 .past {
   background-color: #d3d3d3;
@@ -104,7 +104,6 @@ textarea {
   color: black;
 }
 
-
 .saveBtn {
   color: white;
   width: 100px;
@@ -117,6 +116,6 @@ textarea {
   align-self: center;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
+.saveBtn:hover {
+background: #96C3CE;
 }
